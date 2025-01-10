@@ -9,6 +9,11 @@
    --bg_color:rgb(198, 228, 214);
 
   }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 header{
  margin: 15px 100px 15px 100px;
 }
@@ -34,6 +39,7 @@ nav .btnS:hover{
     background-color: black;
     transition: .3s;
     color: white;
+    cursor: pointer;
 }
 
 /* ========hero-container========== */
@@ -81,6 +87,7 @@ nav .btnS:hover{
 .hero-container .hero-content .hero-btn:hover{
     background-color: black;
     transition: .3s;
+    cursor: pointer;
 }
 
 .hero-container .hero-image img{
@@ -89,5 +96,48 @@ nav .btnS:hover{
 }
 
 
+
+
 /* ========hero-container End========== */
+
+/* =================="pillars Start========================== */
+
+.pillars{
+    margin-top: 30px;
+    
+    
+    max-width: 1050px;
+    height: 276px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 24px;
+   
+}
+.pillars .pillars-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 32px;
+   margin-bottom: 50px;
+    gap: 24px;
+}
+.pillars .pillars-card-container .pillars-card{
+    box-sizing: border-box;
+      border: 1px solid rgba(14, 14, 14, 0.15);
+     border-radius: 16px;
+    padding: 24px;
+    align-items: start;
+     background: rgb(255, 255, 255);
+    max-width: 220px;
+    height: 220px;
+}
+
+.pillars-card-container .pillars-card img{
+    margin-bottom: 15px;
+}
+.pillars-card-container .pillars-card .pillars-desc{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+/* =================="pillars End========================== */
 
