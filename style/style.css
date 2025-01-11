@@ -228,6 +228,11 @@ nav .btnS:hover{
 
 .vision-section .quote{
     background: rgb(255, 255, 255);
+    
+ 
+   
+    position: relative;
+     
    
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -238,18 +243,22 @@ nav .btnS:hover{
    
   
 }
-.vision-section .quote .qoute-container {
-    background-image: url(../assets/quote-bg.png);
+.qoute-container {
+
+    background: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position:top left;
-    position: relative;
-   
-    
+    background-position: top left;
 }
+
+.qoute-container .speech{
+ 
+  
+} 
 .quote .qoute-container .speech .text{
     color: rgba(61, 58, 58, 0.8);
     font-size: 16px;
     line-height: 20px;
+   
     
   
 }
