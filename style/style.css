@@ -533,3 +533,79 @@ font-size: 19px;
 }
 
 /* =====================donate============================ */
+/* newsletter-section */
+.text-center{
+    text-align: center;
+}
+.newsletter-section{
+    max-width: 1050px;
+  height: 300px;
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+   
+    padding: 80px 100px;
+    margin: 150px 100px 24px 100px;
+}
+.newsletter-title{
+    margin-bottom: 16px;
+}
+.nwletter-sub{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.input-feild{
+   
+     margin-left: 200px;
+     margin-top: 30px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 550px;
+     height: 40px;
+    
+}
+.input-feild input{
+    width: 90%;
+    outline: none;
+    border: none;
+    position: relative;
+}
+.input-feild input::placeholder{
+   margin-left: 20px;
+   position: absolute;
+}
+ /* .sub-btn{
+    background-color:black;
+    width: 13%;
+} */
+
+.sub-btn button{
+    border: none;
+    background-color: green;
+   padding: 13px;
+   border: 7px;
+   color: white;
+}
+.sub-btn button:hover{
+    background-color:black;
+}
+
+.promise{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+    
+    margin-top: 15px;
+}
