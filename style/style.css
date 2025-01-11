@@ -351,7 +351,7 @@ text-align: left;
 
 background: rgb(255, 255, 255);
 
-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+box-shadow: 1px 1px 5px rgba(0,0,0,0.6);
 
  
 }
@@ -432,3 +432,104 @@ text-align: left;
     margin-bottom: 20px;
 }
 /* =======================news-section End============================ */
+
+/* =====================donate============================ */
+.donate{
+    max-width: 1050px;
+ 
+  align-items: center;
+  position: relative;
+   
+    margin: 80px 100px 24px 100px;
+}
+.donate .donate-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.donate-desc{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.donate-card-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+}
+.donate-card-container .donate-card{
+ max-width: 340px;
+ height: 100px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+ padding: 40px;
+background: rgb(255, 255, 255);
+}
+.donate-card.active{
+    background-color: rgb(198, 228, 214);
+}
+
+.donate-card:hover, .donate-card.active{
+    background-color: rgb(198, 228, 214);
+}
+
+.donate-input{
+    width: 750px;
+    height: 40px;
+    margin-top: 7px;
+    align-items: center;
+    margin-left: 150px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    position: relative;
+}
+ 
+.donate-input input[type="text"] {
+width: 100%;
+position: absolute;
+border: none;
+outline: none;
+bottom: 10px;
+}
+.donate-input input::placeholder{
+    font-size: 17px;
+text-align: center;
+}
+
+.donate .donat-btn{
+position: absolute;
+margin-left:500px;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.donat-btn button{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+padding: 12px 24px 12px 24px;
+  color: #fff;
+background: rgb(0, 106, 80);
+font-size: 19px;
+}
+.donat-btn button:hover{
+  background-color: black;
+}
+
+/* =====================donate============================ */
